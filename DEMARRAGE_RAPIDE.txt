@@ -1,0 +1,65 @@
+# 🚀 DÉMARRAGE RAPIDE
+
+## 📦 Vous venez de télécharger gsm-network-planning.zip
+
+### Étape 1 : Décompresser le ZIP
+1. Double-cliquez sur `gsm-network-planning.zip`
+2. Un dossier sera créé avec tous les fichiers
+
+### Étape 2 : Ouvrir le Terminal dans ce dossier
+```bash
+cd chemin/vers/le/dossier/décompressé
+```
+
+### Étape 3 : Installer les dépendances
+```bash
+npm install
+```
+
+⏱️ Cela prendra 1-2 minutes
+
+### Étape 4 : Lancer l'application
+```bash
+npm run dev
+```
+
+### Étape 5 : Ouvrir dans le navigateur
+L'application s'ouvrira automatiquement sur **http://localhost:5173/**
+
+---
+
+## 📂 Structure du projet
+
+```
+gsm-network-planning/
+├── package.json          # Configuration npm
+├── vite.config.js        # Configuration Vite
+├── index.html            # Page HTML principale
+├── .gitignore           # Fichiers à ignorer
+├── README.md            # Documentation complète
+├── INSTALLATION.md      # Guide d'installation détaillé
+└── src/
+    ├── main.jsx         # Point d'entrée React
+    ├── App.jsx          # Composant principal
+    └── App.css          # Styles
+```
+
+---
+
+## 🎯 Fonctionnalités
+
+✅ Planification de réseaux GSM
+✅ Analyse de couverture (Okumura-Hata)
+✅ Carte d'interférence C/I avec dégradé fluide (2400+ points)
+✅ Support multi-secteurs (omni, tri-sectoriel, hexa)
+✅ Calculs de capacité (Erlang B)
+✅ Export JSON des configurations
+✅ Interface professionnelle moderne
+
+---
+
+## 🆘 Besoin d'aide ?
+
+Consultez le fichier **INSTALLATION.md** pour le guide détaillé.
+
+Bon développement ! 📡🌐
